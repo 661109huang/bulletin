@@ -29,6 +29,7 @@ $lang['form_validation_regex_match'] = '{field} 欄位的格是錯誤';
 $lang['form_validation_matches'] = '{field} 欄位與 {param} 欄位不符';
 $lang['form_validation_differs'] = '{field} 欄位與 {param} 欄位必須不同';
 $lang['form_validation_is_unique'] = '{field} 欄位必須是一個獨一無二的值';
+$lang['form_validation_is_exist'] = '資料庫不存在 {field}';
 $lang['form_validation_is_natural'] = '{field} 欄位必須是自然數';
 $lang['form_validation_is_natural_no_zero'] = '{field} 欄位必須是非 0 的自然數';
 $lang['form_validation_decimal'] = '{field} 欄位必須是十進位數字';
