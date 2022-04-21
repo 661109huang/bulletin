@@ -1,8 +1,18 @@
 # bulletin 簡易布告欄
-## 基本資訊
+## 基本資訊&使用說明
 ````
 預設網址為：http://127.0.0.1/bulletin/index.php/Homepage/index
 資料庫名稱：bulletin
+
+需要先創建名為"bulletin"的資料庫，之後匯入"bulletin.sql"的sql檔案
+如果有設定host，請修改app->config->database.php->$config['base_url']為你的網址
+資料庫的帳號密碼與資料庫名稱設定在app->config->config.php(如下圖)
+![image](https://user-images.githubusercontent.com/72376358/164365200-829c36f0-ff2c-43c1-8829-ea125eafe670.png)
+	'username' => 資料庫帳號
+	'password' => 資料庫密碼
+	'database' => 資料庫名稱
+此專案是用codeigniter3開發，前後端的收發大部分採用AJAX完成
+
 ````
 ## 新增公告
 ````
