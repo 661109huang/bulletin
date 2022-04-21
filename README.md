@@ -5,7 +5,10 @@
 資料庫名稱：bulletin
 
 需要先創建名為"bulletin"的資料庫，之後匯入"bulletin.sql"的sql檔案
-如果有設定host，請修改app->config->database.php->$config['base_url']為你的網址
+如果有設定host，請修改app->config->database.php->$config['base_url']為你的網址，最後面記得帶有"/"符號
+修改過後網址會變成http://XXXXX/index.php/Homepage/index
+由於每個人的架構不同，所以沒有寫htaccess去隱藏網址裡的index.php
+因此如果沒有修改過的話，index.php為網址裡必填的項目
 資料庫的帳號密碼與資料庫名稱設定在app->config->config.php(如下圖)
 	'username' => 資料庫帳號
 	'password' => 資料庫密碼
